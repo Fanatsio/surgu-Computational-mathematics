@@ -37,3 +37,43 @@ G:\Computational mathematics\Lab1WPF\obj\Debug\net6.0-windows\Lab1WPF.pdb
 G:\Computational mathematics\Lab1WPF\obj\Debug\net6.0-windows\Lab1WPF.genruntimeconfig.cache
 G:\Computational mathematics\Lab1WPF\obj\Debug\net6.0-windows\ref\Lab1WPF.dll
 G:\Computational mathematics\Lab1WPF\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\Lab1WPF.exe
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\Lab1WPF.deps.json
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\Lab1WPF.runtimeconfig.json
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\Lab1WPF.dll
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\Lab1WPF.pdb
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\HarfBuzzSharp.dll
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\LiveChartsCore.dll
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\LiveChartsCore.SkiaSharpView.dll
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\LiveChartsCore.SkiaSharpView.WPF.dll
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\SkiaSharp.dll
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\SkiaSharp.HarfBuzz.dll
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\SkiaSharp.Views.Desktop.Common.dll
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\SkiaSharp.Views.WPF.dll
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\runtimes\osx\native\libHarfBuzzSharp.dylib
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\runtimes\win-x64\native\libHarfBuzzSharp.dll
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\runtimes\win-x86\native\libHarfBuzzSharp.dll
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\runtimes\osx\native\libSkiaSharp.dylib
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\Lab1WPF.csproj.AssemblyReference.cache
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\App.g.cs
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\Lab1WPF_MarkupCompile.cache
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\Lab1WPF_MarkupCompile.lref
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\MainWindow.baml
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\Lab1WPF.g.resources
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\Lab1WPF.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\Lab1WPF.AssemblyInfoInputs.cache
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\Lab1WPF.AssemblyInfo.cs
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\Lab1WPF.csproj.CoreCompileInputs.cache
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\Lab1WPF.sourcelink.json
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\Lab1WPF.csproj.Up2Date
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\Lab1WPF.dll
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\refint\Lab1WPF.dll
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\Lab1WPF.pdb
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\Lab1WPF.genruntimeconfig.cache
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\ref\Lab1WPF.dll

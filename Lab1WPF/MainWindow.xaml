@@ -10,7 +10,7 @@
 
     <lvc:CartesianChart
         Series="{Binding Series}"
-        ZoomMode="X">
+        ZoomMode="Both">
     </lvc:CartesianChart>
     
 </Window>

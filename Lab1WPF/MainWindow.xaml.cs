@@ -5,32 +5,7 @@ namespace Lab1WPF
 {
     public class ViewModel
     {
-        static double Function(double x)
-        {
-            return x + 2 * Math.Sin(x) + Math.Cos(3 * x);
-        }
-
-        public static (double[] xValues, double[] yValues) GenerateData()
-        {
-            const double start = -10.0;
-            const double end = 20.0;
-            const double step = 0.1;
-
-            int count = (int)((end - start) / step) + 1;
-            var xValues = new double[count];
-            var yValues = new double[count];
-
-            for (int i = 0; i < count; i++)
-            {
-                double x = start + i * step;
-                xValues[i] = x;
-                yValues[i] = Function(x);
-            }
-
-            return (xValues, yValues);
-        }
-
-        public ISeries[] Series { get; set; }
+        public ISeries[] Series { get; private set; }
 
         public ViewModel()
         {
@@ -46,6 +21,31 @@ namespace Lab1WPF
                     LineSmoothness = 1
                 }
             };
+        }
+
+        private static (double[] xValues, double[] yValues) GenerateData()
+        {
+            const double Start = -10.0;
+            const double End = 20.0;
+            const double Step = 0.1;
+            const int Count = (int)((End - Start) / Step) + 1;
+
+            var xValues = new double[Count];
+            var yValues = new double[Count];
+
+            for (int i = 0; i < Count; i++)
+            {
+                double x = Start + i * Step;
+                xValues[i] = x;
+                yValues[i] = CalculateFunction(x);
+            }
+
+            return (xValues, yValues);
+        }
+
+        private static double CalculateFunction(double x)
+        {
+            return x + 2 * Math.Sin(x) + Math.Cos(3 * x);
         }
     }
 }

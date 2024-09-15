@@ -746,11 +746,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Computational mathematics\\Lab1WPF\\Lab1WPF.csproj",
+      "projectUniqueName": "D:\\GitHub\\surgu-Computational-mathematics\\Lab1WPF\\Lab1WPF.csproj",
       "projectName": "Lab1WPF",
-      "projectPath": "G:\\Computational mathematics\\Lab1WPF\\Lab1WPF.csproj",
+      "projectPath": "D:\\GitHub\\surgu-Computational-mathematics\\Lab1WPF\\Lab1WPF.csproj",
       "packagesPath": "C:\\Users\\rechu\\.nuget\\packages\\",
-      "outputPath": "G:\\Computational mathematics\\Lab1WPF\\obj\\",
+      "outputPath": "D:\\GitHub\\surgu-Computational-mathematics\\Lab1WPF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "F:\\Tools\\Visual Studio\\SDK\\NuGetPackages"
