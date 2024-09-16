@@ -77,3 +77,4 @@ D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\refin
 D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\Lab1WPF.pdb
 D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\Lab1WPF.genruntimeconfig.cache
 D:\GitHub\surgu-Computational-mathematics\Lab1WPF\obj\Debug\net6.0-windows\ref\Lab1WPF.dll
+D:\GitHub\surgu-Computational-mathematics\Lab1WPF\bin\Debug\net6.0-windows\CommunityToolkit.Mvvm.dll

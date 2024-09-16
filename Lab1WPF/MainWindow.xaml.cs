@@ -1,21 +1,23 @@
-﻿using LiveChartsCore;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using LiveChartsCore;
+using LiveChartsCore.Defaults;
 using LiveChartsCore.SkiaSharpView;
 
 namespace Lab1WPF
 {
-    public class ViewModel
+    public partial class ViewModel : ObservableObject
     {
-        public ISeries[] Series { get; private set; }
+        public ISeries[] Series { get; set; }
 
         public ViewModel()
         {
-            var (xValues, yValues) = GenerateData();
+            var points = GenerateData();
 
             Series = new ISeries[]
             {
-                new LineSeries<double>
+                new LineSeries<ObservablePoint>
                 {
-                    Values = yValues,
+                    Values = points,
                     Fill = null,
                     GeometrySize = 0,
                     LineSmoothness = 1
@@ -23,24 +25,25 @@ namespace Lab1WPF
             };
         }
 
-        private static (double[] xValues, double[] yValues) GenerateData()
+        private static ObservablePoint[] GenerateData()
         {
             const double Start = -10.0;
             const double End = 20.0;
             const double Step = 0.1;
-            const int Count = (int)((End - Start) / Step) + 1;
 
-            var xValues = new double[Count];
-            var yValues = new double[Count];
+            int count = (int)((End - Start) / Step) + 1;
 
-            for (int i = 0; i < Count; i++)
+            var points = new ObservablePoint[count];
+
+            for (int i = 0; i < count; i++)
             {
                 double x = Start + i * Step;
-                xValues[i] = x;
-                yValues[i] = CalculateFunction(x);
+                double y = CalculateFunction(x);
+
+                points[i] = new ObservablePoint(x, y);
             }
 
-            return (xValues, yValues);
+            return points;
         }
 
         private static double CalculateFunction(double x)
