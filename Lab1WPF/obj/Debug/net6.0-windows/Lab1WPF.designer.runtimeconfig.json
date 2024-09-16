@@ -17,6 +17,7 @@
       "F:\\Tools\\Visual Studio\\SDK\\NuGetPackages"
     ],
     "configProperties": {
+      "MVVMTOOLKIT_ENABLE_INOTIFYPROPERTYCHANGING_SUPPORT": true,
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
     }
   }
