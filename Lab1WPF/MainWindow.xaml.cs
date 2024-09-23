@@ -2,6 +2,7 @@
 using LiveChartsCore;
 using LiveChartsCore.Defaults;
 using LiveChartsCore.SkiaSharpView;
+using System.IO;
 
 namespace Lab1WPF
 {
@@ -35,13 +36,20 @@ namespace Lab1WPF
 
             var points = new ObservablePoint[count];
 
+            string[] dataLines = new string[count + 1];
+            dataLines[0] = "x,y";
+
             for (int i = 0; i < count; i++)
             {
                 double x = Start + i * Step;
                 double y = CalculateFunction(x);
 
                 points[i] = new ObservablePoint(x, y);
+
+                dataLines[i + 1] = $"{x},{y}";
             }
+
+            ExportDataToFile(dataLines);
 
             return points;
         }
@@ -49,6 +57,21 @@ namespace Lab1WPF
         private static double CalculateFunction(double x)
         {
             return x + 2 * Math.Sin(x) + Math.Cos(3 * x);
+        }
+
+        private static void ExportDataToFile(string[] dataLines)
+        {
+            string filePath = "exported_data.csv";
+
+            try
+            {
+                File.WriteAllLines(filePath, dataLines);
+                Console.WriteLine($"Данные успешно сохранены в {filePath}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Ошибка при записи данных в файл: {ex.Message}");
+            }
         }
     }
 }
